@@ -1,0 +1,23 @@
+= WTF
+
+WTF is Alibaba's cavern for cursed Lisp.
+
+It's a monorepo for my Common Lisp experiments: interpreters, macros, metaprogramming, compilers, language ideas, and whatever else I end up making.
+
+Nothing here is particularly serious. Some things might be useful. Most probably aren't.
+
+== Structure
+
+## [source,text]
+
+interpreters/
+macros/
+experiments/
+compilers/
+----------
+
+The goal is simple: *experiment with Lisp and see what happens.*
+
+== Status
+
+Very experimental. Expect weird code.
