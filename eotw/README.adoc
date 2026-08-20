@@ -1,0 +1,60 @@
+= EOTW
+
+*End Of The World.*
+
+EOTW is the most cursed experiment inside WTF.
+
+It is a Common Lisp-based experiment in **recursion, metaprogramming, self-modification, and autonomous programming**.
+
+The goal isn't to build a useful language.
+
+The goal is to see how far we can push Lisp.
+
+== The idea
+
+EOTW starts with a tiny recursive Lisp interpreter and gradually gives it more control over itself.
+
+## [source,text]
+
+Lisp
+↓
+interpreter
+↓
+metaprogramming
+↓
+self-modification
+↓
+recursive interpreters
+↓
+autonomous reprogramming
+↓
+???
+---
+
+The system should eventually be able to inspect, modify, and generate its own code without us manually editing it.
+
+== Visualization
+
+EOTW will have a live OpenGL visualization written in Lisp.
+
+The runtime will be represented as a changing graph of:
+
+* AST nodes
+* functions
+* macros
+* environments
+* evaluators
+* generated code
+* recursive calls
+
+The idea is to **watch the program reprogram itself**.
+
+== Philosophy
+
+No fixed language design.
+
+No predetermined endpoint.
+
+No guarantee that anything here is sane.
+
+Just Lisp, recursion.
