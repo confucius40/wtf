@@ -1,0 +1,5 @@
+(defun genesis ()
+  (let ((world (make-eotw)))
+    (initialize-world world)
+    (start-world world)
+    world))
