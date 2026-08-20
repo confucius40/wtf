@@ -1,4 +1,4 @@
-= WTF
+= WTF (Wild Template Fuckery)
 
 WTF is Alibaba's cavern for cursed Lisp.
 
